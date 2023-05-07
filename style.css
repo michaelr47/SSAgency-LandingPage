@@ -40,3 +40,9 @@ The designs were created to the following widths:
 - Weights: 700, 900
 
 / */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
