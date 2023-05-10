@@ -30,6 +30,7 @@ The designs were created to the following widths:
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+
 }
 
 :root {
@@ -54,7 +55,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  font-size: 18px;
 }
 
 a {
@@ -75,14 +76,17 @@ header {
     height: 100%;
     text-align: center;
     padding: 1.5rem;
-    
+
 }
+
+
 .navContainer {
     padding: 1rem;
     list-style-type: none;
     width: 35rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 
@@ -98,4 +102,13 @@ header {
 #heading {
   margin-bottom: 2rem;
   padding: 2rem;
+}
+
+#contact-btn {
+  width: 130px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  font-family: 'Fraunces';
 }
