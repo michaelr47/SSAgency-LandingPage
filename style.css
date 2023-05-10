@@ -76,12 +76,11 @@ header {
     height: 100%;
     text-align: center;
     padding: 1.5rem;
-
 }
 
 
 .navContainer {
-    padding: 1rem;
+    padding: 0px 1rem;
     list-style-type: none;
     width: 35rem;
     display: flex;
