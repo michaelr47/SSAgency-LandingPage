@@ -64,7 +64,7 @@ a {
 }
 body { font-family: 'Barlow', sans-serif; }
 
-section { min-height: 100vh; }
+html, section { min-height: 100vh; }
 
 header {
     background-image: url('./images/desktop/image-header.jpg');
@@ -110,4 +110,22 @@ header {
   border: none;
   font-size: 18px;
   font-family: 'Fraunces';
+}
+
+
+.imgCont, .innerContainer {
+  width: 50%;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
 }
