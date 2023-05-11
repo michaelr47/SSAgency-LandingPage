@@ -93,7 +93,7 @@ header {
 
 .mainHeader {
   font-family: 'Fraunces', sans-serif;
-  margin: 2rem;
+  /* margin: 2rem; */
   padding: 1rem;
   font-size: 1.8rem;
   letter-spacing: 7px;
@@ -138,4 +138,18 @@ header {
     width: 100%;
     max-width: 100%;
   } 
+  
+  .imgCont {
+    order: -1;
+  }
+  .navContainer {
+    display: none;
+  }
+  
+  #heading {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .mainHeader { font-size: 1rem;}
 }
