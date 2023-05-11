@@ -62,9 +62,10 @@ a {
     text-decoration: none;
     color: var(--white);
 }
-body { font-family: 'Barlow', sans-serif; }
 
-html, section { min-height: 100vh; }
+body{ font-family: 'Barlow', sans-serif; }
+
+section { min-height: 100vh; }
 
 header {
     background-image: url('./images/desktop/image-header.jpg');
@@ -83,6 +84,7 @@ header {
     padding: 0px 1rem;
     list-style-type: none;
     width: 35rem;
+    /* ^ */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,6 +120,12 @@ header {
   max-width: 100%;
 }
 
+.imgCont > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
 
@@ -125,7 +133,9 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  .row {
-    flex-direction: column;
-  }
+  .row { flex-direction: column; }
+  .imgCont, .innerContainer {
+    width: 100%;
+    max-width: 100%;
+  } 
 }
