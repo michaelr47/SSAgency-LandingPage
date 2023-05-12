@@ -63,10 +63,19 @@ a {
     color: var(--white);
 }
 
-body{ font-family: 'Barlow', sans-serif; }
+h2 {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+.barlowFont { font-family: 'Barlow', sans-serif; }
+.frauncesFont { font-family: 'Fraunces', sans-serif; }
 
 section { min-height: 100vh; }
-
+section a { 
+  text-decoration: none;
+  color: var(--darkDesatBlue);
+  
+ }
 header {
     background-image: url('./images/desktop/image-header.jpg');
     background-position: center center;
@@ -92,8 +101,7 @@ header {
 }
 
 .mainHeader {
-  font-family: 'Fraunces', sans-serif;
-  /* margin: 2rem; */
+  margin: 2rem 1.5rem 0px;
   padding: 1rem;
   font-size: 1.8rem;
   letter-spacing: 7px;
@@ -111,24 +119,30 @@ header {
   border-radius: 30px;
   border: none;
   font-size: 18px;
-  font-family: 'Fraunces';
 }
 
-
+/* two column layout */
 .imgCont, .innerContainer {
   width: 50%;
   max-width: 100%;
 }
 
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
 .imgCont > img {
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  vertical-align: bottom;
 }
 
 .row {
   display: flex;
-
   flex-direction: row;
 }
 
@@ -151,5 +165,12 @@ header {
     margin-bottom: 1rem;
   }
 
-  .mainHeader { font-size: 1rem;}
+  .mainHeader { 
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
 }
+
+/* @media screen and (max-width: 480px) {
+  
+} */
