@@ -156,6 +156,9 @@ header {
     
   } 
   
+  .innerContainer {
+    padding: 3rem 1rem;
+  }
   .imgCont {
     order: -1;
   }
@@ -174,7 +177,18 @@ header {
   }
 }
 
- /* @media screen and (min-width: 480px) { */
+  @media screen and (max-width: 480px) { 
   /* less padding on both top and bottom to .innerContainer, so no text would crush each other :) */
-
- /* } */
+    
+    .mainHeader, #heading {
+      margin: .5rem;
+      padding: .5rem;
+    }
+   
+    #heading {
+      padding: .5rem;
+    }
+  .innerContainer {
+    padding: 2rem 1rem;
+  }
+ } 
