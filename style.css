@@ -190,6 +190,8 @@ header {
     font-size: 1.2rem;
     margin: 1rem;
   }
+  .innerContainer > div a { align-self: center; }
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -201,4 +203,5 @@ header {
   nav { padding: 0.775rem; }
   .innerContainer { padding: 2rem 1rem; }
   .logoImg { width: 125px; }
+ 
 }
