@@ -194,6 +194,14 @@ header {
   
 }
 
+#imgContCherries, #imgContOrange { position: relative;}
+.textOnImage {
+  position: absolute;
+  bottom: 2rem;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
 @media screen and (max-width: 480px) {
   .mainHeader,
   #heading {
