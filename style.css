@@ -1,28 +1,3 @@
-/* 
-# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Typography
-
-### Body Copy
-
-- Font size: 18px
-
-### Font
-
-- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-- Weights: 600
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700, 900
-
-/ */
-
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 
 * {
@@ -206,7 +181,7 @@ header {
   height: auto;
   width: 100%;
   z-index: 1;
-  padding: 2rem 4rem;
+  padding: 1rem 4rem;
 }
 @media screen and (max-width: 480px) {
   .mainHeader,
