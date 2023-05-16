@@ -135,6 +135,22 @@ header {
   flex-direction: row;
 }
 
+#imgContCherries, #imgContOrange { 
+  position: relative;
+  text-align: center;
+ 
+}
+.textOnImage {
+  text-align: center;
+  position: absolute;
+  bottom: 15%;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  padding: 1rem 4rem;
+}
+#hamburgerMenu { display: none; }
+
 @media screen and (max-width: 768px) {
   .row {
     flex-direction: column;
@@ -169,20 +185,6 @@ header {
   
 }
 
-#imgContCherries, #imgContOrange { 
-  position: relative;
-  text-align: center;
- 
-}
-.textOnImage {
-  text-align: center;
-  position: absolute;
-  bottom: 15%;
-  height: auto;
-  width: 100%;
-  z-index: 1;
-  padding: 1rem 4rem;
-}
 @media screen and (max-width: 480px) {
   .mainHeader,
   #heading {
