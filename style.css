@@ -153,10 +153,37 @@ header {
 
 #testimonials {
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid red;
+  font-family: 'Barlow';
+ 
 }
 
+.testimonial-cards {
+  display: flex;
+  align-items: center;
 
+}
 
+.card {
+  padding: 1rem;
+  height: 25rem;
+  max-width: 23rem;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.card > div {
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
   .row {
