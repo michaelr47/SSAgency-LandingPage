@@ -157,7 +157,6 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border: 2px solid red;
   font-family: 'Barlow';
  
 }
@@ -165,14 +164,13 @@ header {
 .testimonial-cards {
   display: flex;
   align-items: center;
-
+  flex-direction: row;
 }
 
 .card {
   padding: 1rem;
   height: 25rem;
   max-width: 23rem;
-  border: 1px solid black;
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -185,7 +183,12 @@ header {
   text-align: center;
 }
 
+#rowImages {
+  min-height: 70vh;
+}
+
 @media screen and (max-width: 768px) {
+  .testimonial-cards { flex-direction: column; }
   .row {
     flex-direction: column;
   }
