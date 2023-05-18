@@ -48,6 +48,9 @@ h2 {
   font-family: "Fraunces", sans-serif;
 }
 
+.darkGrayishBlue { color: var(--darkGrayishBlue); }
+.darkDesatBlue { color: var(--darkDesatBlue); }
+.cursor { cursor: pointer; }
 section {
   min-height: 100vh;
 }
