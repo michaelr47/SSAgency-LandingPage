@@ -50,7 +50,10 @@ h2 {
 
 .darkGrayishBlue { color: var(--darkGrayishBlue); }
 .darkDesatBlue { color: var(--darkDesatBlue); }
+.veryDarkGrayishBlue { color: var(--veryDarkGrayishBlue); }
+.grayishBlue { color: var(--grayishBlue); }
 .cursor { cursor: pointer; }
+
 section {
   min-height: 100vh;
 }
