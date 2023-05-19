@@ -175,7 +175,7 @@ header {
 }
 .card {
   padding: 1rem;
-  height: 25rem;
+  height: 26rem;
   max-width: 23rem;
   margin: 5px;
   display: flex;
@@ -191,8 +191,15 @@ header {
 
 #rowImages {
   min-height: 70vh;
+  display: flex;
+  flex-direction: row;
 }
 
+#rowImages div > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 @media screen and (max-width: 768px) {
   .testimonial-cards { flex-direction: column; }
   .row {
@@ -225,7 +232,7 @@ header {
     margin: 1rem;
   }
   .innerContainer > div a { align-self: center; }
-  
+  #rowImages { flex-direction: column; }
 }
 
 @media screen and (max-width: 480px) {
