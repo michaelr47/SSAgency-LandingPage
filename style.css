@@ -237,5 +237,5 @@ header {
   nav { padding: 0.775rem; }
   .innerContainer { padding: 2rem 1rem; }
   .logoImg { width: 125px; }
- 
+  .testimonial-header h3 { white-space: nowrap; }
 }
