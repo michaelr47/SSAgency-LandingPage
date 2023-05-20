@@ -150,7 +150,7 @@ header {
   text-align: center;
   position: absolute;
   bottom: 15%;
-  height: 7rem;
+  height: 8.3rem;
   width: 100%;
   z-index: 1;
   padding: 1rem 4rem;
@@ -198,7 +198,20 @@ header {
 #rowImages div > img {
   width: 100%;
   max-width: 100%;
+  
   height: auto;
+  display: block;
+}
+
+.leftHalf, .rightHalf {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+footer {
+  min-height: 35vh;
+  background-color: var(--moderateCyan);
 }
 @media screen and (max-width: 768px) {
   .testimonial-cards { flex-direction: column; }
@@ -233,6 +246,7 @@ header {
   }
   .innerContainer > div a { align-self: center; }
   #rowImages { flex-direction: column; }
+  .leftHalf, .rightHalf { width: 100%;}
 }
 
 @media screen and (max-width: 480px) {
