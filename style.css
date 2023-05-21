@@ -12,7 +12,7 @@
   --yellow: hsl(51, 100%, 49%);
   --darkCyan: hsl(167, 40%, 24%);
   --darkBlue: hsl(198, 62%, 26%);
-  --moderateCyan: hsl(168, 34%, 41%);
+  --moderateCyan: hsl(167, 41%, 68%);
 
   /* Neutral */
   --darkDesatBlue: hsl(212, 27%, 19%);
@@ -209,8 +209,22 @@ header {
 }
 
 footer {
-  min-height: 35vh;
+  padding: 1rem;
+  min-height: 45vh;
   background-color: var(--moderateCyan);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.listTypeNone { list-style-type: none; }
+.ulFlexList  {
+  min-width: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: var(--moderateCyan);
 }
 @media screen and (max-width: 768px) {
   .testimonial-cards { flex-direction: column; }
