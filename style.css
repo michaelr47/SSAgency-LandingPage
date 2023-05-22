@@ -30,10 +30,7 @@ nav {
   font-size: 18px;
 }
 
-a {
-  text-decoration: none;
-  color: var(--white);
-}
+a { text-decoration: none; }
 
 h2 {
   font-size: 2.2rem;
@@ -77,10 +74,12 @@ header {
   padding: 0px 1rem;
   list-style-type: none;
   width: 35rem;
-  /* ^ */
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.navContainer a, .ulFlexList a:hover {
+  color: var(--white);
 }
 .logoImg {
   width: 150px;
@@ -220,11 +219,18 @@ footer {
 
 .listTypeNone { list-style-type: none; }
 .ulFlexList  {
-  min-width: 15rem;
+  min-width: 20rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  color: var(--moderateCyan);
+}
+.ulFlexList a {
+  color: #2e6f5d;
+}
+
+footer div:nth-child(3) .ulFlexList {
+  min-width: 15rem;
+  justify-content: space-evenly;
 }
 @media screen and (max-width: 768px) {
   .testimonial-cards { flex-direction: column; }
