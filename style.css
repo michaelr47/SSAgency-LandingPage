@@ -102,7 +102,12 @@ header {
   height: 60px;
   border-radius: 30px;
   border: none;
-  font-size: 18px;
+  transition: .5s ease-out;
+}
+
+#contact-btn:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--white);
 }
 
 /* two column layout */
@@ -224,6 +229,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .ulFlexList a {
   color: #2e6f5d;
 }
@@ -232,6 +238,11 @@ footer div:nth-child(3) .ulFlexList {
   min-width: 15rem;
   justify-content: space-evenly;
 }
+
+/* .ulFlexList li a img:hover {
+  background-color: white;
+
+} */
 @media screen and (max-width: 768px) {
   .testimonial-cards { flex-direction: column; }
   .row {
