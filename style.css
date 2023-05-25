@@ -101,8 +101,18 @@ header {
   background-color: white;
   position: absolute;
   right: 25px;
-  /* margin: */
-  
+  z-index: 1;
+}
+.topRightSharp { 
+  /* background-color: red;  */
+  /* height: 50px;
+  width: 50px; */
+  position: absolute;
+  right: 0;
+  top: -20px;
+  border: 20px solid transparent;
+  border-right-color: white;
+  /* transform: rotate(180deg); */
 }
 
 .dropdownContent { position: relative; }
@@ -111,6 +121,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 #heading {
