@@ -69,6 +69,7 @@ header {
   height: 100%;
   text-align: center;
   padding: 1.5rem;
+  position: relative;
 }
 
 .navContainer {
@@ -95,8 +96,21 @@ header {
 
 .dropdown {
   max-width: 750px;
+  min-width: 300px;
   height: 50vh;
   background-color: white;
+  position: absolute;
+  right: 25px;
+  /* margin: */
+  
+}
+
+.dropdownContent { position: relative; }
+.dropdownUl {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #heading {
