@@ -324,10 +324,7 @@ footer div:nth-child(3) .ulFlexList {
   .imgCont {
     order: -1;
   }
-  .navContainer {
-    display: none;
-  }
-
+ 
   #heading {
     padding: 1rem;
     margin-bottom: 1rem;
