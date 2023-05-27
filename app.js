@@ -20,6 +20,12 @@ const innerWidth = () => {
            breakTags[i].remove(); 
         } 
     }
+
+    // if (widthOfScreen <= 768 && dropdownNav.classList.contains('dropdown')) {
+    //     hamburgerMenu.classList.toggle('dropdown');
+    
+    //     console.log('disappeared');
+    // }
 }
 
 window.addEventListener('resize', innerWidth);
