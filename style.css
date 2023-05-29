@@ -311,6 +311,7 @@ footer div:nth-child(3) .ulFlexList {
 }
 svg path:hover {
   fill: var(--white);
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .testimonial-cards { flex-direction: column; }
