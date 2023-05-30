@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/michaelr47/SSAgency-LandingPage)
-- Live Site URL: [Sunnyside Agency Landing Page](https://your-live-site-url.com)
+- Live Site URL: [Sunnyside Agency Landing Page](https://michaelr47.github.io/SSAgency-LandingPage/)
 
 ## My process
 
