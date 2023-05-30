@@ -22,6 +22,7 @@ const innerWidth = () => {
     }
 }
 
+window.addEventListener('load', innerWidth);
 window.addEventListener('resize', innerWidth);
 
 hamburgerMenu.addEventListener('click', () => {
