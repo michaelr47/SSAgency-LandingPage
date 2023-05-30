@@ -309,7 +309,9 @@ footer div:nth-child(3) .ulFlexList {
   min-width: 15rem;
   justify-content: space-evenly;
 }
-svg path:hover {
+#footerLogo path { fill: #2C7566; }
+
+.links path:hover {
   fill: var(--white);
   cursor: pointer;
 }
