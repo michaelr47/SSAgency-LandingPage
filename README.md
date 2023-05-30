@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/DesktopPovAgency.png)
-![](./images/MobilePovAgency.png.png)
+![](./images/MobilePovAgency.png)
 
 ### Links
 
